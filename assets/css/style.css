@@ -340,6 +340,15 @@
 
 /* RESPONSIVE SERVICES */
 @media (max-width: 768px) {
+    .hero-btn{
+        margin: auto;
+    }
+    .hero-title{
+        text-align: center;
+    }
+    .hero-desc{
+        text-align: center;
+    }
     .d-flex {
       flex-direction: column;
     }
@@ -406,4 +415,5 @@
         margin-bottom: 40px;
         margin-left: 10px;
     }
+
 }
