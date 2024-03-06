@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Smartholiday</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/logo/logo.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="assets/css/bootsrap.min.css"> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <style>
+      .banner-image {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        overflow: hidden;
+      }
+
+      .banner-image::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("assets/img/hero.png");
+        background-size: cover;
+        filter: brightness(0.6);
+        z-index: -1;
+      }
+      .trip-1 {
+        height: 200px;
+        /* width: 300px; */
+        background-image: url("assets/img/trip1.png");
+        background-size: cover;
+        border-radius: 10px;
+      }
+
+      .trip-2 {
+        height: 200px;
+        /* width: 300px; */
+        margin-top: 30px;
+        background-image: url("assets/img/trip2.png");
+        background-size: cover;
+        border-radius: 10px;
+      }
+
+      .trip-3 {
+        height: 550px;
+        /* width: 384px; */
+        background-image: url("assets/img/trip3.png");
+        background-size: cover;
+        border-radius: 10px;
+      }
+
+
+    .service-categories:hover .categories-icon{
+      
+      content: url('assets/img/arrow-hover.svg');
+      -webkit-transition: all 1s ease;
+      transition: all 1s ease;
+    }
+
+    .service-categories:hover img{
+      
+      content: url('assets/img/cat-hover.svg');
+      -webkit-transition: all 1s ease;
+      transition: all 1s ease;
+    }
+
+    
+
+    </style>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+      <div class="container">
+        <img src="assets/img/logo/logo.svg" alt="" height="50" class="navbar-logo" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ARMADA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner Image  -->
+    <section class="hero">
+      <div class="banner-image w-100 vh-100 d-flex align-items-center">
+        <div class="container mt-5">
+          <div class="row mt-5">
+            <div class="col-12 col-lg-8 col-md-8 mt-5">
+              <div class="hero-btn">Holiday</div>
+              <div class="hero-title mt-3">
+                <h1 class="hero-title">EXPLORE YOUR</h1>
+                <h1 class="hero-title">FAVORITE DESTINATIONS</h1>
+              </div>
+
+              <div class="hero-desc">
+                Solo Mandiri Tavelindo provides all you need to optimize your
+                best tourism. Do your vacation trip by using Solo Mandiri
+                Travelindo. Happy Holiday with Smart Production
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <div class="spacer"></div>
+    <!--<div class="spacer"></div> -->
+    <!-- SECTION EXPERIENCE -->
+    <section id="experience mb-5">
+      <div class="container  mb-5">
+        <div class="row mt-5">
+          <div class="col-md-3" id="imageTrip">
+            <div class="trip-1"></div>
+            <div class="trip-2"></div>
+          </div>
+          <div class="col-md-4">
+            <div class="trip-3"></div>
+          </div>
+
+          <div class="col-md-5 col-12" id="numbering">
+            <div class="experience-title mt-5">Our Experience</div>
+            <div class="experience-sub-title mt-3">
+              <h1>Enjoy Your Vacation</h1>
+              <h1>with New Experience</h1>
+            </div>
+            <div class="experience-desc">
+              We dedicate our service for your pleasure and happiness in
+              enjoying tourism. Solo Mandiri Travelindo provides all you need to
+              optimize your best tourism experience.
+            </div>
+            <div class="experience-numbering">
+              <div class="row mt-5 mb-4">
+                <div class="col">
+                  <div class="count-stats">45+</div>
+                  <div class="desc-stats mt-2">Destinations</div>
+                </div>
+                <div class="col-auto">
+                  <div class="line"></div>
+                </div>
+                <div class="col">
+                  <div class="count-stats">142+</div>
+                  <div class="desc-stats mt-2">Happy Tourist</div>
+                </div>
+                <div class="col-auto">
+                  <div class="line"></div>
+                </div>
+                <div class="col">
+                  <div class="count-stats">25+</div>
+                  <div class="desc-stats mt-2">Package</div>
+                </div>
+              </div>
+            </div>
+            <button class="btn-package">Choose Package</button>
+            <button class="btn-contact">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  END SECTION EXPERIENCE  -->
+
+    <!-- SECTION SERVICES -->
+    <div class="spacer"></div>
+    <section id="service mt-5">
+      <div class="container mt-5 mb-5">
+        <div class="experience-title mt-5 mb-3">Our Services</div>
+        <div class="d-flex mb-4 justify-content-center align-items-center">
+          <div class="service-sub-title">
+            <p>Our Best Service</p>
+            <p>by Categories</p>
+          </div>
+          <div class="service-desc ">
+            <p>Enjoy our wide range of services for your activities. We provide the best for you.</p>
+          </div>
+          <div class="ms-auto">
+            <div class="service-btn">View Details</div>
+          </div>
+        </div>
+        
+        <div class="wrapper">
+          <div class="carousel">
+            <div class="overflow-auto d-flex flex-nowrap">
+                  <div class="service-categories d-flex flex-column">
+                    <div class="position-relative">
+                      <div class="position-absolute top-0 start-0">
+                        <img src="assets/img/Group 4.svg" alt="" />
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row align-items-center justify-content-center">
+                        <div class="col col-md-7">
+                          <div class="categories-title">
+                            <p>Smart <br> Vacation</p> 
+                          </div>
+                        </div>
+                        <div class="col col-md-5">
+                          <div class="categories-icon">
+                            <img src="assets/img/arrow.png" alt="" />
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="categories-desc mt-2"><p>International Tourism Package,<br> Domestic Tourism Package, Official <br> Visit Package, Umroh Package, Car <br> Bus Minibus Renting, Hotel Voucher</p></div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="service-categories d-flex flex-column">
+                    <div class="position-relative">
+                      <div class="position-absolute top-0 start-0">
+                        <img src="assets/img/Group 4.svg" alt="" />
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row align-items-center justify-content-center">
+                        <div class="col col-md-7">
+                          <div class="categories-title">
+                            <p>Smart <br> MICE</p>
+                          </div>
+                        </div>
+                        <div class="col col-md-5">
+                          <div class="categories-icon">
+                            <img src="assets/img/arrow.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row align-items-center justify-content-center">
+                        <div class="col">
+                          <div class="categories-desc mt-2"><p>Meeting, Wedding Organizer, Event <br> Organizer, Conference, Incentive, <br>Exhibition</p></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="service-categories d-flex flex-column">
+                    <div class="position-relative">
+                      <div class="position-absolute top-0 start-0">
+                        <img src="assets/img/Group 4.svg" alt="" />
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row align-items-center justify-content-center">
+                        <div class="col col-md-7">
+                          <div class="categories-title"><p>Smart <br> Outbond</p></div>
+                        </div>
+                        <div class="col col-md-5">
+                          <div class="categories-icon">
+                            <img src="assets/img/arrow.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row align-items-center justify-content-center">
+                        <div class="col">
+                          <div class="categories-desc mt-2"><p>Smart Outbond provides outbond <br> packaged with various customized <br> games to meet with your need and <br> your aim.</p></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+               
+                  <div class="service-categories d-flex flex-column">
+                    <div class="position-relative">
+                      <div class="position-absolute top-0 start-0">
+                        <img src="assets/img/Group 4.svg" alt="" />
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row align-items-center justify-content-center">
+                        <div class="col col-md-7">
+                          <div class="categories-title"><p>Smart <br> Ticketing</p></div>
+                        </div>
+                        <div class="col col-md-5">
+                          <div class="categories-icon">
+                            <img src="assets/img/arrow.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row align-items-center justify-content-center">
+                        <div class="col">
+                          <div class="categories-desc mt-2"><p>We are commited to give you <br> ultimate service, including ticket <br> reservation for all directions. One <br> Stop Services in Tourism.</p></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+            </div>
+          </div>
+        </div>
+       
+         
+      </div>
+      <div class="container mt-5"></div>
+    </section>
+    <!-- END SECTION SERVICES -->
+
+    <!-- SECTION TOP DESTINATIONS -->
+    <div class="spacer"></div>
+    <!-- END SECTION DESTINATIONS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript">
+      var nav = document.querySelector("nav");
+
+      window.addEventListener("scroll", function () {
+        if (window.pageYOffset > 100) {
+          nav.style.backgroundColor = "#3092D9"; 
+          nav.classList.add("#3092D9"); 
+        } else {
+          nav.style.backgroundColor = "transparent"; 
+          nav.classList.remove("#3092D9"); 
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Montserrat';
+}
+
+.spacer {
+    height: 50px; 
+    width: 100%;
+}
+.menu a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar {
+    transition: background-color 0.5s ease;
+    /* margin-top: 20px; */
+}
+
+.nav-item .nav-link{
+    font-size: 20px;
+    /* padding: 10px; */
+    gap: 20px;
+    color: #DDE5E9;
+    /* font-weight: ; */
+}
+
+
+
+
+.hero-btn{
+    width: 118px;
+    height: 44px;
+    /* margin-bottom: 20px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 100px;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+}
+
+.hero-title{
+    font-weight: 700;
+    color: #FFFFFF;
+    /* font-size: 56px; */
+    /* line-height: 68.26px; */
+}
+
+.hero-desc{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    /* width: 625px;
+    height: 90px; */
+}
+
+/* 
+@media (max-width: 375px) {
+    .hero-btn{
+        width: 95px;
+        height: 33px;
+        padding: 8px 20px 8px 20px;
+        border: 1.5px solid white;
+        align-items: center;
+    }
+    .hero-title{
+        font-size: 16px;
+        text-align: center;
+        line-height: 25.6px;
+    }
+    .hero-desc {
+      width: 313px;
+      height: 48px;
+      font-size: 12px;
+      text-align: center;
+      line-height: 14.63px;
+    }
+  } */
+
+.experience-title{
+    width: 200px;
+    height: 44px;
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    background-color: #FF6C0033;
+    color: #FF6C00;
+}
+  
+
+.experience-sub-title {
+    color: #333237;
+    font-size: 40px;
+}
+
+.experience-desc{
+    font-size: 20px;
+    line-height: 28px;
+    color: #7B7B7B;
+}
+
+.count-stats{
+    font-size: 40px;
+    color: #7B7B7B;
+    line-height: 48.76px;
+}
+
+.desc-stats{
+    font-size: 18px;
+    color: #7B7B7B;
+    line-height: 21.94px;
+}
+.line {
+    /* position: absolute; */
+    height: 70px; 
+    border: 1px solid #DDE5E9;
+    margin-right: 20px; 
+}
+
+
+.btn-package{
+    width: 194px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #3092D9;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+.btn-package:hover{
+    width: 194px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #FF6C00;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.btn-contact{
+    width: 139px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #3092D9;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.btn-contact:hover{
+    width: 139px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #FF6C00;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .spacer{
+        height: 0px;
+    }
+    #numbering {
+      order: -1; /* Mengubah urutan div #numbering menjadi pertama */
+    }
+
+    .experience-title{
+        width: 136px;
+        height: 35px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .experience-sub-title h1{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .experience-desc{
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+
+    .experince-numbering{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .count-stats{
+        font-size: 20px;
+    }
+
+    .desc-stats{
+        font-size: 10px;
+    }
+
+    .line{
+        height: 39px; 
+        border: 1px solid #DDE5E9;
+        /* margin-right: 20px;  */
+    }
+    
+    .btn-contact{
+        display: none;
+    }
+
+    .btn-package{
+        display: none;
+    }
+  }
+
+
+.service-sub-title{
+    width: 343px;
+    font-size: 40px;
+    line-height: 48.76px;
+    font-weight: 600;
+    color: #333237;
+}
+
+.service-desc{
+    width: 429px;
+    height: 56px;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 40px;
+    color: #7B7B7B;
+}
+
+.service-btn{
+    width: 145px;
+    height: 52px;
+    border-radius: 8px;
+    border: 1px solid #7B7B7B;
+    background-color: transparent;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    color: #7B7B7B;
+    /* letter-spacing: 1%; */
+}
+
+.service-btn:hover{
+    width: 145px;
+    height: 52px;
+    border-radius: 8px;
+    border: 1px solid #FF6C00;
+    background-color: #FF6C00;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    letter-spacing: 1%;
+    color: white;
+}
+
+.service-categories{
+    display: inline-block;
+    width: 338px;
+    height: 338px;
+    background-color: #3092D9;
+    border-radius: 20px;
+    margin-right: 80px;
+    
+}
+
+.service-categories:hover{
+    display: inline-block;
+    width: 338px;
+    height: 338px;
+    background-color: #FF6C0033;
+    color: #FF6C00;
+    border-radius: 20px;
+    margin-right: 80px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.service-categories:hover .categories-title p,
+.service-categories:hover .categories-desc p{
+  color: #FF6C00; /* Mengubah warna teks saat dihover */
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+
+.categories-title{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 92px;
+}   
+
+.categories-icon{
+    width: 41px;
+    height: 34px;
+    margin-top: 118px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 34px;
+    margin-bottom: 30px;
+}
+
+
+.categories-desc{
+    font-size: 16px;
+    line-height: 23px;
+    color: #DDE5E9;
+    margin-left: 20px;
+    /* max-width: 338px; */
+    /* margin-top: 92px; */
+}
+
+.wrapper .carousel{
+    white-space: nowrap;
+    overflow-x: hidden; /* Menambahkan overflow-x untuk menyembunyikan scroll bar horizontal */
+
+}
+
+.carousel .overflow-auto{
+    overflow-x: hidden;
+}
+
+
+/* RESPONSIVE SERVICES */
+@media (max-width: 768px) {
+    .d-flex {
+      flex-direction: column;
+    }
+
+    .categories-title{
+        width: 118px;
+        height: 35px;
+        font-size: 12px;
+        font-weight: 600px;
+    }
+
+    .service-sub-title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .service-desc{
+        width: 327px;
+        font-size: 12px;
+        margin-left: 0;
+    }
+
+    .service-btn{
+        display: none;
+    }
+
+    .service-categories{
+        width: 260px;
+        height: 260px;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .service-categories:first-child {
+        margin-top: 0; /* Menghilangkan margin atas untuk komponen pertama */
+    }
+
+    .service-categories:hover{
+        width: 260px;
+        height: 260px;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .service-categories:hover:first-child {
+        margin-top: 0; /* Menghilangkan margin atas untuk komponen pertama */
+    }
+
+    .categories-title{
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 70px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+
+    }
+
+    .categories-icon{
+        margin-left: 10px;
+        margin-top: 90px;
+        margin-bottom: 10px;
+    }
+
+    .categories-desc{
+        font-size: 12px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+    }
+}
