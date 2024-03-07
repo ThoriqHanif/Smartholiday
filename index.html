@@ -83,6 +83,12 @@
         background-repeat: no-repeat;
         background-position: right;
       }
+
+      @media (max-width: 768px) {
+        #footer {
+        background-size: contain; 
+      }
+      }
     </style>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
@@ -108,10 +114,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#">HOME</a>
+              <a class="nav-link active" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SERVICES</a>
+              <a class="nav-link" href="services.html">SERVICES</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">ARMADA</a>
@@ -156,11 +162,11 @@
     <section id="experience mb-5">
       <div class="container mb-5">
         <div class="row mt-5">
-          <div class="col-md-3" id="imageTrip">
+          <div class="col-md-3 col-6" id="imageTrip">
             <div class="trip-1"></div>
             <div class="trip-2"></div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-6">
             <div class="trip-3"></div>
           </div>
 
@@ -384,21 +390,22 @@
     <div class="spacer"></div>
     <section>
       <div id="destination">
-        <div class="position-relative">
+        <div class="position-relative img-union">
           <div class="position-absolute top-0 start-0">
-            <img src="assets/img/union_kiri.png" alt="" />
+            <img src="assets/img/union_kiri.png" alt="" class="union-kiri" />
           </div>
           <div class="position-absolute top-0 end-0">
-            <img src="assets/img/union_kanan.png" alt="" />
+            <img src="assets/img/union_kanan.png" alt="" class="union-kanan" />
           </div>
         </div>
-        <div class="spacer"></div>
+        <div class="spacer "></div>
+        <div class="mobile-spacer"></div>
         <div class="destination-title">
           <p>Top Destinations</p>
         </div>
         <div class="destination-sub-title">
-          <p>Explore Top Destinations</p>
-          <p>in Our Package</p>
+          <p>Explore Top Destinations <br>in Our Package</p>
+          
         </div>
         <div class="d-flex justify-content-around destination-image p-5">
           <div class=" destination-1 img-hover-zoom">
@@ -439,35 +446,32 @@
     <!-- SECTION TESTIMONIALS -->
     <section>
       <div class="container">
-
-      <div id="testimonial">
         <div class="testi-title">
           Testimonials
         </div>
         <div class="d-flex mb-4 justify-content-center align-items-center">
           <div class="testi-sub-title">
-            <p>What Travelers Say</p>
-            <p>About Our Services</p>
+            <p>What Travelers Say <br> About Our Services</p>
           </div>
-          <div class="testi-desc">
+          <div class="service-desc">
             <p>
               Listen to those who have used our services for their extraordinary vacation.
             </p>
           </div>
-          <div class="ms-auto">
+          <div class="ms-auto testi-btn">
             <img class="" src="assets/img/circle-arrow-left.svg"></img>
             <img class="" src="assets/img/circle-arrow-right.svg"></img>
           </div>
         </div>
         <div class="container testi-container">
           <div class="position-relative">
-            <div class="position-absolute top-0 start-0">
+            <div class="position-absolute top-0 start-0 testi-star">
               <img src="assets/img/Star 1.png" alt="" />
 
             </div>
           </div>
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 col-12">
               <div class="testi-story">
                 <div class="testi-rating align-items-center">
                   
@@ -480,7 +484,7 @@
 
                 </div>
                 <div class="testi-comment">
-                  The service for the tour was very good and satifisying. We really enjoyed every part of trip.
+                  The service for the tour was very good and <br> satifisying. We really enjoyed every part of trip. <br>
                   Thank you Smart Production!
                 </div>
                 <div class="testi-line"></div>
@@ -495,18 +499,18 @@
           </div>
         </div>
       </div>
-    </div>
 
     </section>
     <div class="spacer"></div>
+    <div class="mobile-spacer"></div>
     <!-- END SECTION TESTIMONIALS -->
 
     <!-- SECTION PARTNER -->
     <div class="spacer"></div>
     <section id="partner">
       <div class="container">
-        <div class="partner-container d-flex justify-content-center">
-          <img src="assets/img/asppi 1.png" alt="">
+        <div class="partner-container align-items-center justify-content-center">
+          <img src="assets/img/asppi 1.png" alt="" class="">
           <img src="assets/img/ASITA LOGO_1_ 1.png" alt="">
           <img src="assets/img/solo raya 1.png" alt="">
         </div>
@@ -514,13 +518,15 @@
     </section>
     <div class="spacer"></div>
     <div class="spacer"></div>
+    <div class="mobile-spacer"></div>
     <!-- END SECTION PARTNER -->
 
     <!-- SECTION FOOTER -->
     <section id="footer">
       <div class="container">
+        
           <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-5 col-12">
               <img class="footer-logo" src="assets/img/logo/logo.svg" height="75px" alt="">
               <p class="footer-about">Solo Mandiri Travelindo merupakan perusahaan yang bergerak pada bidang travel. Kami menyediakan berbagai paket pilihan diantaranya smart vacation, smart mice, smart outbound, dan smart ticketing.</p>
               <div class="footer-sosmed">
@@ -531,7 +537,7 @@
               </div>
             </div>
             <div class="col-md-1"></div>
-            <div class="col-md-3 footer-menu">
+            <div class="col-md-3 col-6 footer-menu">
               <p>Company</p>
                 <li><a href="">About</a></li>
                 <li><a href="">Services</a></li>
@@ -539,7 +545,7 @@
                 <li><a href="">Gallery</a></li>
                 <li><a href="">Contact</a></li>
             </div>
-            <div class="col-md-3 footer-menu">
+            <div class="col-md-3 col-6 footer-menu">
               <p>Services</p>
               <li><a href="">Smart Vacation</a></li>
               <li><a href="">Smart MICE</a></li>
