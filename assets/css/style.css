@@ -1297,3 +1297,120 @@
   font-weight: 600;
   margin-top: 30px;
 }
+
+
+/* ARMADA PAGES */
+
+.armada-category-tabs {
+  display: flex;
+  justify-content: center; /* Membuat tab berada di tengah */
+  align-items: center;
+}
+
+.tab {
+  position: relative;
+}
+
+.tab-title-armada {
+  font-size: 20px;
+  padding: 40px 40px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #DDE5E9;
+}
+
+.tab-title-armada.active {
+  font-size: 24px;
+  font-weight: 600;
+  color: #3092D9;
+}
+
+.tab:not(:last-child)::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -10px;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 50px;
+  background-color: #DDE5E9; /* Warna garis vertikal */
+}
+
+.tab-image {
+  display: none;
+  margin-left: 40px;
+}
+
+.tab-image.active {
+  display: block;
+}
+
+
+.product-section {
+  padding: 50px 20px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-card {
+  /* margin-bottom: 20px; */
+  background-color: #FAF9FB;
+  border-radius: 20px;
+  margin-top: 80px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-info {
+  padding: 20px;
+}
+
+.product-name {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 29.26px;
+  color: #333237;
+}
+
+.product-desc {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 10px; */
+}
+.product-desc p{
+  font-size: 18px;
+  line-height: 21.94px;
+  font-weight: 400;
+  color: #7B7B7B;
+  margin-top: 16px;
+}
+.product-desc img {
+  margin-right: 20px; 
+  width: 28px;
+  height: 22px;
+}
+.product-button {
+  width: 300px;
+  height: 52px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3092D9;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.product-button:hover {
+  background-color: #FF6C00;
+}
