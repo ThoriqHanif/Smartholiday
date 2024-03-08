@@ -278,13 +278,21 @@
 }
 
 .wrapper .carousel{
-    white-space: nowrap;
-    overflow-x: hidden; /* Menambahkan overflow-x untuk menyembunyikan scroll bar horizontal */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  white-space: nowrap; /* Menambahkan overflow-x untuk menyembunyikan scroll bar horizontal */
 
 }
 
 .carousel .overflow-auto{
     overflow-x: hidden;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    white-space: nowrap;
 }
 
 #destination{
@@ -1497,6 +1505,10 @@
   color: white;
 }
 
+.btn-email:hover{
+  background-color: #FF6C00;
+}
+
 .card-image{
   background-color: #3092D9;
   width: 100px;
@@ -1505,9 +1517,9 @@
   padding: 25px;
 }
 
-#contact-call{
+/* #contact-call{
   height: 100px;
-}
+} */
 
 #contact-call h3{
   font-size: 24px;
@@ -1522,4 +1534,88 @@
   line-height: 24.38px;
   letter-spacing: 2px;
   color: #7B7B7B;
+}
+
+.form-control-custom{
+  width: 100%;
+  height: 50px;
+  outline: 2px;
+  border: 2px solid #DDE5E9;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+
+input::placeholder{
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #7A7A7A80;
+
+}
+
+textarea::placeholder{
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #7A7A7A80;
+
+}
+
+@media (max-width: 767px) { /* Style untuk tampilan mobile */
+    .card-image{
+      width: 60px;
+      height: 60px;
+      padding: 15px;
+    }
+
+    .card-image img{
+      width: 30px;
+      height: 30px;
+      margin-right: 21px;
+    }
+
+    #contact-call h3{
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 25.6px;
+      color: #333237;
+    }
+    
+    #contact-call p{
+      width: 147px;
+      font-size: 10px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0px;
+      color: #7B7B7B;
+    }
+
+    /* #img-contact img{
+      height: 240px;
+      width: 339px;
+    } */
+
+    #contact-title{
+      font-size: 16px;
+      line-height: 24px;
+      margin-top: 53px;
+    }
+
+    #contact-desc{
+      font-size: 12px;
+      line-height: 19.2px;
+    }
+
+    .label-input{
+      font-size: 14px;
+    }
+
+    .form-control-custom{
+      height: 40px;
+      padding: 12px 18px;
+    }
+
+    .btn-email{
+      margin-top: 30px;
+    }
 }
