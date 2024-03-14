@@ -29,15 +29,12 @@
         </div>
     </div>
 </nav>
-<div class="header-top">
-    <div class="d-flex justify-content-between align-items-center ">
-        <img src="assets/img/bg-header-kiri.png" alt="" class="img-bg">
-        <div class="header-title">
-            About
-        </div>
-        <img src="assets/img/bg-header-kanan.png" alt="" class="img-bg">
-    </div>
-</div>
+<header class="services-header">
+    <img src="assets/img/bg-header-kiri.png" alt="Left Image" class="left-image">
+    <h1 class="header-title">About</h1>
+    <img src="assets/img/bg-header-kanan.png" alt="Right Image" class="right-image">
+  </header>
+
 
 <section id="about" class="mt-5 mb-5">
     <div class="container mb-5 mt-5">

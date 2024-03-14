@@ -1,6 +1,6 @@
 <?php include('layout/header.php'); ?>
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 nav-service">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 nav-service ">
     <div class="container">
         <img src="assets/img/logo/logo.svg" alt="" height="50" class="navbar-logo" />
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -29,17 +29,39 @@
         </div>
     </div>
 </nav>
-
-<div class="header-top">
-    <div class="d-flex justify-content-between align-items-center ">
+<header class="services-header">
+    <img src="assets/img/bg-header-kiri.png" alt="Left Image" class="left-image">
+    <h1 class="header-title">Services</h1>
+    <img src="assets/img/bg-header-kanan.png" alt="Right Image" class="right-image">
+  </header>
+<!-- <div class="header-top">
+    <div class="d-flex flex-sm-row flex-column justify-content-between align-items-center ">
         <img src="assets/img/bg-header-kiri.png" alt="" class="img-bg">
         <div class="header-title">
             Services
         </div>
         <img src="assets/img/bg-header-kanan.png" alt="" class="img-bg">
     </div>
-</div>
-
+</div> -->
+<!-- <section class="">
+    <div class="header-top">
+        <div class="position-relative">
+            <div class="position-absolute start-0">
+                <img src="assets/img/bg-header-kiri.png" alt="" class="img-bg" />
+            </div>
+            <div class="position-absolute end-0">
+                <img src="assets/img/bg-header-kanan.png" alt="" class="img-bg" />
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-center">
+                <div class="col-md-12">
+                    <div class="header-title">Services</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
 <!-- HEAD SERVICES -->
 
 <section id="services-page" class="mt-5 mb-5">
@@ -371,7 +393,6 @@
     </div>
 
 </section>
-<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script>
 
     document.addEventListener("DOMContentLoaded", function () {

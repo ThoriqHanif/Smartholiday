@@ -29,15 +29,12 @@
         </div>
     </div>
 </nav>
-<div class="header-top">
-    <div class="d-flex justify-content-between align-items-center ">
-        <img src="assets/img/bg-header-kiri.png" alt="" class="img-bg">
-        <div class="header-title">
-            Gallery
-        </div>
-        <img src="assets/img/bg-header-kanan.png" alt="" class="img-bg">
-    </div>
-</div>
+<header class="services-header">
+    <img src="assets/img/bg-header-kiri.png" alt="Left Image" class="left-image">
+    <h1 class="header-title">Gallery</h1>
+    <img src="assets/img/bg-header-kanan.png" alt="Right Image" class="right-image">
+  </header>
+
 
 <section id="gallery" class="mt-5 mb-5">
     <div class="container">
@@ -74,7 +71,7 @@
                     <div class="gal-4 col-xl-3 col-lg-4 col-md-6 col-6 ">
                         <img src="assets/img/gal-4.svg" alt="">
                     </div>
-                    <div class="gal-5 col-xl-3 col-lg-3 col-md-6 col-6 ps-5">
+                    <div class="gal-5 col-xl-3 col-lg-3 col-md-6 col-6 ">
                         <img src="assets/img/gal-5.svg" alt="">
                     </div>
                     <div class="gal-6 col-xl- col-lg-4 col-md-6 col-6 pt-5">
@@ -97,7 +94,7 @@
                     <div class="gal-4 col-xl-3 col-lg-4 col-md-6 col-6 ">
                         <img src="assets/img/gal-4.svg" alt="">
                     </div>
-                    <div class="gal-5 col-xl-3 col-lg-3 col-md-6 col-6 ps-5">
+                    <div class="gal-5 col-xl-3 col-lg-3 col-md-6 col-6">
                         <img src="assets/img/gal-5.svg" alt="">
                     </div>
                     <div class="gal-6 col-xl- col-lg-4 col-md-6 col-6 pt-5">

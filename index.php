@@ -786,6 +786,10 @@
                     disable: false,
                     items: 2.1,
                 },
+                590: {
+                    disable: false,
+                    items: 1.4,
+                },
                 576: {
                     disable: true,
                     items: 1.5,

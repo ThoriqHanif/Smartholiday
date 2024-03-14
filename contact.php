@@ -30,49 +30,22 @@
     </div>
 </nav>
 
-<div class="header-top">
-    <div class="d-flex justify-content-between align-items-center ">
-        <img src="assets/img/bg-header-kiri.png" alt="" class="img-bg">
-        <div class="header-title">
-            Contact
-        </div>
-        <img src="assets/img/bg-header-kanan.png" alt="" class="img-bg">
-    </div>
-</div>
+<header class="services-header">
+    <img src="assets/img/bg-header-kiri.png" alt="Left Image" class="left-image">
+    <h1 class="header-title">Contact</h1>
+    <img src="assets/img/bg-header-kanan.png" alt="Right Image" class="right-image">
+  </header>
 
-
-
-<!-- <div class="header-top mb-5">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-xl-3 col-4 text-center mb-3 mb-xl-0">
-                <img src="assets/img/bg-header-kiri.png" alt="" class="img-bg">
-            </div>
-            <div class="col-xl-6 col-4 text-center">
-                <div class="header-title">
-                    Contact
-                </div>
-            </div>
-            <div class="col-xl-3 col-4 text-center">
-                <img src="assets/img/bg-header-kanan.png" alt="" class="img-bg">
-            </div>
-        </div>
-    </div>
-
-</div> -->
-<!-- <div class="spacer"></div>
-<div class="spacer"></div>
-<div class="spacer"></div> -->
 <section id="contact" class="mt-5 mb-5">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-xl-5 col-md-12 col-12 img-experience d-xl-block d-lg-block d-md-none d-none">
+            <div class="col-xl-6 col-lg-7 col-md-12 col-12 img-experience d-xl-block d-lg-block d-md-none d-none">
                 <img src="assets/img/contact.svg" alt="">
             </div>
             <div class="img-contact-mobile col-xl-5 col-md-6 col-1 d-xl-none d-lg-none d-md-block d-block mb-5">
                 <img src="assets/img/contact-mobile.svg" alt="">
             </div>
-            <div class="col-xl-6 col-md-12 col-12 desc-experience">
+            <div class="col-xl-6 col-lg-5 col-md-12 col-12 desc-experience">
                 <h1 class="experience-sub-title">Get In Touch with Solo Mandiri Travelindo</h1>
                 <p class="experience-desc">You can also contact us by using the form bellow. Our teams would love to
                     hear from you.

@@ -30,15 +30,11 @@
     </div>
 </nav>
 
-<div class="header-top">
-    <div class="d-flex justify-content-between align-items-center ">
-        <img src="assets/img/bg-header-kiri.png" alt="" class="img-bg">
-        <div class="header-title">
-            Armada
-        </div>
-        <img src="assets/img/bg-header-kanan.png" alt="" class="img-bg">
-    </div>
-</div>
+<header class="services-header">
+    <img src="assets/img/bg-header-kiri.png" alt="Left Image" class="left-image">
+    <h1 class="header-title">Armada</h1>
+    <img src="assets/img/bg-header-kanan.png" alt="Right Image" class="right-image">
+  </header>
 
 
 
@@ -130,6 +126,7 @@
 
                             </div>
                         </div>
+                        
                         <div class="col-xl-4 col-lg-6 col-md-6 col-12 mb-5">
                             <div class="armada-card">
                                 <div class="armada-img">
