@@ -285,25 +285,21 @@
                                     <h3>Smart production</h3>
                                 </div>
                                 <div class="holiday-desc">
-                                    <p>Smart Outbond provides outbond packaged with various customized games to meet
-                                        with your need and your aim. By using this product, you can build Team Work,
-                                        Team Building, Leadership, Creativity, Education, Communication, Problem
-                                        Solving, Adventure and fun games. You can choose what you need and we provide
-                                        it.</p>
+                                    <p>Smart Production provides outbond packaged with various customized games to meet with your need and your aim. By using this product, you can build Team Work, Team Building, Leadership, Creativity, Education, Communication, Problem Solving, Adventure and fun games. You can choose what you need and we provide it.</p>
                                 </div>
                                 <div class="row">
                                     <div class="col-xl-7 col-lg-7 col-md-7">
                                         <div class="holiday-menu">
-                                            <li>Paket production & Cave Tubing</li>
-                                            <li>Paket production & Tubing Sungai</li>
-                                            <li>Paket production & Fun Games</li>
+                                            <li>Paket Outbound & Cave Tubing</li>
+                                            <li>Paket Outbound & Tubing Sungai</li>
+                                            <li>Paket Outbound & Fun Games</li>
                                         </div>
                                     </div>
                                     <div class="col-xl-5 col-lg-5 col-md-5">
                                         <div class="holiday-menu">
                                             <li>Paket Family Gathering & Fun</li>
                                             <li>Paket Wisata Pedesaan</li>
-                                            <li>Paket production Tour</li>
+                                            <li>Paket Outbound Tour</li>
                                         </div>
                                     </div>
                                 </div>
