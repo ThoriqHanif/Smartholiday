@@ -39,7 +39,7 @@
 <section id="gallery" class="mt-5 mb-5">
     <div class="container">
         <div class="row align-items-center justify-content-beetwen mb-5 mt-3">
-            <div class="col-md-xl-4 col-lg-4 col-md-4 col-6">
+            <div class="col-lg-4 col-md-4 col-6">
                 <h1 class="service-sub-title">Our Gallery Moments & Photo</h1>
             </div>
             <div class="col-md-2 col-6 text-end gallery-slide d-xl-none d-lg-none d-md-inline d-inline">
@@ -59,23 +59,23 @@
         <div class="gallery-slider">
             <div class="slider">
                 <div class="row mx-auto align-items-center">
-                    <div class="gal-1 col-xl-5 col-lg-5 col-md-6 col-6">
-                        <img src="assets/img/gal-1.png" alt="">
+                    <div class="gal-1  col-xl-6 col-lg-5 col-md-6 col-6">
+                        <img src="assets/img/gal-1.png" alt=""  class="w-100">
                     </div>
-                    <div class="gal-2 col-xl-3 col-lg-3 col-md-6 col-6 text-end">
-                        <img src="assets/img/gal-2.svg" alt="">
+                    <div class="gal-2 col-xl-2 col-lg-3 col-md-6 col-6 text-end">
+                        <img src="assets/img/gal-2.svg" alt="" class="w-100">
                     </div>
-                    <div class="gal-3 col-md-4 col-6 ps-5">
-                        <img src="assets/img/gal-3.svg" alt="">
+                    <div class="gal-3 col-xl-3 col-md-4 col-6 ">
+                        <img src="assets/img/gal-3.svg" alt=""  class="w-100">
                     </div>
-                    <div class="gal-4 col-xl-3 col-lg-4 col-md-6 col-6 ">
-                        <img src="assets/img/gal-4.svg" alt="">
+                    <div class="gal-4 col-xl-3 col-lg-4 col-md-6 col-6">
+                        <img src="assets/img/gal-4.svg" alt=""  class="w-100">
                     </div>
-                    <div class="gal-5 col-xl-3 col-lg-3 col-md-6 col-6 ">
-                        <img src="assets/img/gal-5.svg" alt="">
+                    <div class="gal-5 col-xl-3 col-lg-3 col-md-6 col-6">
+                        <img src="assets/img/gal-5.svg" alt=""  class="w-100">
                     </div>
-                    <div class="gal-6 col-xl- col-lg-4 col-md-6 col-6 pt-5">
-                        <img src="assets/img/gal-6.svg" alt="">
+                    <div class="gal-6 col-xl-6 col-lg-4 col-md-6 col-6 pt-5">
+                        <img src="assets/img/gal-6.svg" alt=""  class="w-100">
                     </div>
                 </div>
 

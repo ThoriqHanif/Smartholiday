@@ -101,7 +101,6 @@
                                             <a href="" class="">BOOK NOW</a>
                                         </div>
                                     </div>
-
                                     <div class="info-qty d-flex align-items-center">
                                         <div class="flex-shrink-0">
                                             <img src="assets/img/Icon Seat.svg" alt="">
@@ -110,14 +109,7 @@
                                             Kapasitas 22, 29, 31 orang
                                         </div>
                                     </div>
-                                    <div class="info-harga d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Harga.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            2 Juta / hari
-                                        </div>
-                                    </div>
+
                                     <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
                                         <a href="" class="">BOOK NOW</a>
                                     </div>
@@ -126,7 +118,7 @@
 
                             </div>
                         </div>
-                        
+
                         <div class="col-xl-4 col-lg-6 col-md-6 col-12 mb-5">
                             <div class="armada-card">
                                 <div class="armada-img">
@@ -148,14 +140,7 @@
                                             Kapasitas 40, 44, 47, 54 orang
                                         </div>
                                     </div>
-                                    <div class="info-harga d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Harga.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            3.5 Juta / hari
-                                        </div>
-                                    </div>
+
                                     <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
                                         <a href="" class="">BOOK NOW</a>
                                     </div>
@@ -185,14 +170,7 @@
                                             Kapasitas 22, 29, 31 orang
                                         </div>
                                     </div>
-                                    <div class="info-harga d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Harga.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            3 Juta / hari
-                                        </div>
-                                    </div>
+
                                     <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
                                         <a href="" class="">BOOK NOW</a>
                                     </div>
@@ -222,14 +200,14 @@
                                             Kapasitas 22, 29, 31 orang
                                         </div>
                                     </div>
-                                    <div class="info-harga d-flex align-items-center">
+                                    <!-- <div class="info-harga d-flex align-items-center">
                                         <div class="flex-shrink-0">
                                             <img src="assets/img/Icon Harga.svg" alt="">
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             2 Juta / hari
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
                                         <a href="" class="">BOOK NOW</a>
                                     </div>
@@ -259,14 +237,6 @@
                                             Kapasitas 40, 44, 47, 54 orang
                                         </div>
                                     </div>
-                                    <div class="info-harga d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Harga.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            3.5 Juta / hari
-                                        </div>
-                                    </div>
                                     <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
                                         <a href="" class="">BOOK NOW</a>
                                     </div>
@@ -294,14 +264,6 @@
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             Kapasitas 22, 29, 31 orang
-                                        </div>
-                                    </div>
-                                    <div class="info-harga d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Harga.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            3 Juta / hari
                                         </div>
                                     </div>
                                     <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
@@ -340,12 +302,41 @@
                                             Kapasitas 2 - 5 orang
                                         </div>
                                     </div>
-                                    <div class="info-harga d-flex align-items-center">
+                                    <!-- <div class="info-harga d-flex align-items-center">
                                         <div class="flex-shrink-0">
                                             <img src="assets/img/Icon Harga.svg" alt="">
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             550k / 12 jam
+                                        </div>
+                                    </div> -->
+                                    <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
+                                        <a href="" class="">BOOK NOW</a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-12 mb-5">
+                            <div class="armada-card">
+                                <div class="armada-img">
+                                    <img src="assets/img/avanza.svg" alt="">
+                                </div>
+                                <div class="armada-desc">
+                                    <div class="armada-head">
+                                        <h5>Toyota Avanza</h5>
+                                        <div class="armada-btn-mobile d-xl-none d-lg-none d-md-none d-block">
+                                            <a href="" class="">BOOK NOW</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="info-qty d-flex align-items-center">
+                                        <div class="flex-shrink-0">
+                                            <img src="assets/img/Icon Seat.svg" alt="">
+                                        </div>
+                                        <div class="flex-grow-1 ms-3">
+                                            Kapasitas 2 - 5 orang
                                         </div>
                                     </div>
                                     <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
@@ -377,14 +368,7 @@
                                             Kapasitas 2 - 5 orang
                                         </div>
                                     </div>
-                                    <div class="info-harga d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Harga.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            550k / 12 jam
-                                        </div>
-                                    </div>
+
                                     <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
                                         <a href="" class="">BOOK NOW</a>
                                     </div>
@@ -414,14 +398,7 @@
                                             Kapasitas 2 - 5 orang
                                         </div>
                                     </div>
-                                    <div class="info-harga d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Harga.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            550k / 12 jam
-                                        </div>
-                                    </div>
+
                                     <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
                                         <a href="" class="">BOOK NOW</a>
                                     </div>
@@ -451,14 +428,6 @@
                                             Kapasitas 2 - 5 orang
                                         </div>
                                     </div>
-                                    <div class="info-harga d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Harga.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            550k / 12 jam
-                                        </div>
-                                    </div>
                                     <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
                                         <a href="" class="">BOOK NOW</a>
                                     </div>
@@ -486,51 +455,6 @@
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             Kapasitas 2 - 5 orang
-                                        </div>
-                                    </div>
-                                    <div class="info-harga d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Harga.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            550k / 12 jam
-                                        </div>
-                                    </div>
-                                    <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
-                                        <a href="" class="">BOOK NOW</a>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 col-12 mb-5">
-                            <div class="armada-card">
-                                <div class="armada-img">
-                                    <img src="assets/img/avanza.svg" alt="">
-                                </div>
-                                <div class="armada-desc">
-                                    <div class="armada-head">
-                                        <h5>Toyota Avanza</h5>
-                                        <div class="armada-btn-mobile d-xl-none d-lg-none d-md-none d-block">
-                                            <a href="" class="">BOOK NOW</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="info-qty d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Seat.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            Kapasitas 2 - 5 orang
-                                        </div>
-                                    </div>
-                                    <div class="info-harga d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Harga.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            550k / 12 jam
                                         </div>
                                     </div>
                                     <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
@@ -569,12 +493,33 @@
                                             Kapasitas 7 - 9 orang
                                         </div>
                                     </div>
-                                    <div class="info-harga d-flex align-items-center">
+                                    <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
+                                        <a href="" class="">BOOK NOW</a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-12 mb-5">
+                            <div class="armada-card">
+                                <div class="armada-img">
+                                    <img src="assets/img/Armadaelf-long.svg" alt="">
+                                </div>
+                                <div class="armada-desc">
+                                    <div class="armada-head">
+                                        <h5>ELF Long</h5>
+                                        <div class="armada-btn-mobile d-xl-none d-lg-none d-md-none d-block">
+                                            <a href="" class="">BOOK NOW</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="info-qty d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Harga.svg" alt="">
+                                            <img src="assets/img/Icon Seat.svg" alt="">
                                         </div>
                                         <div class="flex-grow-1 ms-3">
-                                            1.2 Juta / hari
+                                            Kapasitas 15 - 19 orang
                                         </div>
                                     </div>
                                     <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
@@ -606,14 +551,6 @@
                                             Kapasitas 15 - 19 orang
                                         </div>
                                     </div>
-                                    <div class="info-harga d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Harga.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            1.6 Juta / hari
-                                        </div>
-                                    </div>
                                     <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
                                         <a href="" class="">BOOK NOW</a>
                                     </div>
@@ -641,51 +578,6 @@
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             Kapasitas 15 - 19 orang
-                                        </div>
-                                    </div>
-                                    <div class="info-harga d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Harga.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            1.6 Juta / hari
-                                        </div>
-                                    </div>
-                                    <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
-                                        <a href="" class="">BOOK NOW</a>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 col-12 mb-5">
-                            <div class="armada-card">
-                                <div class="armada-img">
-                                    <img src="assets/img/Armadaelf-long.svg" alt="">
-                                </div>
-                                <div class="armada-desc">
-                                    <div class="armada-head">
-                                        <h5>ELF Long</h5>
-                                        <div class="armada-btn-mobile d-xl-none d-lg-none d-md-none d-block">
-                                            <a href="" class="">BOOK NOW</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="info-qty d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Seat.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            Kapasitas 15 - 19 orang
-                                        </div>
-                                    </div>
-                                    <div class="info-harga d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Harga.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            1.6 Juta / hari
                                         </div>
                                     </div>
                                     <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
@@ -717,14 +609,6 @@
                                             Kapasitas 7 - 9 orang
                                         </div>
                                     </div>
-                                    <div class="info-harga d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Harga.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            1.2 Juta / hari
-                                        </div>
-                                    </div>
                                     <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">
                                         <a href="" class="">BOOK NOW</a>
                                     </div>
@@ -752,14 +636,6 @@
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             Kapasitas 7 - 9 orang
-                                        </div>
-                                    </div>
-                                    <div class="info-harga d-flex align-items-center">
-                                        <div class="flex-shrink-0">
-                                            <img src="assets/img/Icon Harga.svg" alt="">
-                                        </div>
-                                        <div class="flex-grow-1 ms-3">
-                                            1.2 Juta / hari
                                         </div>
                                     </div>
                                     <div class="armada-btn d-xl-block d-lg-block d-md-block d-none">

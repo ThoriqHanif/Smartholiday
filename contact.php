@@ -1,6 +1,7 @@
 <?php include('layout/header.php'); ?>
+<?php include('layout/navbar.php'); ?>
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 nav-service">
+<!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 nav-service">
     <div class="container">
         <img src="assets/img/logo/logo.svg" alt="" height="50" class="navbar-logo" />
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -28,7 +29,7 @@
             </ul>
         </div>
     </div>
-</nav>
+</nav> -->
 
 <header class="services-header">
     <img src="assets/img/bg-header-kiri.png" alt="Left Image" class="left-image">

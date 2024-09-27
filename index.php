@@ -67,7 +67,7 @@
     </nav>
 
     <!-- Banner Image  -->
-    <section id="hero" class="hero mb-5">
+    <section id="hero" class="hero">
         <div class="banner-image w-100 d-flex align-items-center">
             <div class="container">
                 <div class="row align-items-center">
@@ -90,8 +90,8 @@
     </section>
 
     <!-- SECTION EXPERIENCE -->
-    <section id="experience" class="mt-5 mb-5">
-        <div class="container mb-5 mt-5">
+    <section id="experience">
+        <div class="container">
             <div class="row ">
                 <div class="col-xl-7 col-lg-6 col-md-12 col-12 img-experience">
                     <img src="assets/img/img-experience.svg" alt="">
@@ -101,7 +101,6 @@
                         Our Experience
                     </div>
                     <h1 class="experience-sub-title">Enjoy Your Vacation with New Experience</h1>
-                    <h1 class="experience-sub-title"></h1>
                     <p class="experience-desc">We dedicate our service for your pleasure and happiness in enjoying
                         tourism. Solo Mandiri Travelindo provides all you need to optimize your best tourism experience.
                     </p>
@@ -135,138 +134,251 @@
     </section>
 
     <!-- SECTION SERVICES -->
-    <section id="service" class="mt-5 mb-5">
+    <section id="service">
         <div class="container mb-5">
             <div class="service-title">
                 Our Services
             </div>
             <div class="row align-items-center justify-content-beetwen mb-5 mt-3">
-                <div class="col-xl-3 col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12">
                     <h1 class="service-sub-title">Our Best Service</h1>
                     <h1 class="service-sub-title">by Categories </h1>
                 </div>
-                <div class="col-xl-7 col-lg-5 col-md-7 col-sm-6 col-12 ">
+                <div class="col-lg-5 col-md-7 col-sm-6 col-12 ">
                     <p class="service-desc">Enjoy our wide range of services for your <br class="hide-br"> activities.
                         We provide the
                         best for you.</p>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-5 text-end">
-                    <a class="service-btn" href="services.html">View Details</a>
+                <div class="col-lg-3 col-md-5 text-end">
+                    <a class="service-btn" href="service.php">View Details</a>
                 </div>
             </div>
-            <div id="categories">
-                <div class="slider-categories">
-                    <div class="slider">
-                        <div class="service-categories">
-                            <div class="position-relative">
-                                <div class="position-absolute top-0 start-0">
-                                    <img src="assets/img/Group 4.svg" alt="" class="default-img" />
-                                    <img src="assets/img/cat-hover.svg" alt="" class="hover-img" />
-                                </div>
+            <div class="row justify-content-center container-service">
+                <div class="col-xl-4 col-lg-4 col-md-12 col-12">
+                    <div class="service-categories">
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 start-0">
+                                <img src="assets/img/Group 4.svg" alt="" class="default-img" />
+                                <img src="assets/img/cat-hover.svg" alt="" class="hover-img" />
                             </div>
-                            <div class="content-categories">
-                                <div class="row align-items-center justify-content-beetween">
-                                    <div class="col col-md-8">
-                                        <div class="categories-title">
-                                            <p>
-                                                Smart Vacation
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col col-md-4">
-                                        <div class="categories-icon align-self-end">
-                                            <img src="assets/img/arrow.png" class="default-img" alt="" />
-                                            <img src="assets/img/arrow-hover.svg" class="hover-img" alt="" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="categories-desc mt-2">
-                                            <p>
-                                                International Tourism Package,
-                                                Domestic Tourism Package, Official
-                                                Visit Package, Umroh Package, Car
-                                                Bus Minibus Renting, Hotel Voucher
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
-                    </div>
-                    <div class="slider">
-                        <div class="service-categories">
-                            <div class="position-relative">
-                                <div class="position-absolute top-0 start-0">
-                                    <img src="assets/img/Group 4.svg" alt="" class="default-img" />
-                                    <img src="assets/img/cat-hover.svg" alt="" class="hover-img" />
+                        <div class="content-categories">
+                            <div class="row align-items-center justify-content-beetween">
+                                <div class="col col-md-8">
+                                    <div class="categories-title">
+                                        <p>
+                                            Smart <br> Vacation
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="content-categories">
-                                <div class="row align-items-center justify-content-beetween">
-                                    <div class="col col-md-8">
-                                        <div class="categories-title">
-                                            <p>
-                                                Smart MICE
-                                            </p>
-                                        </div>
+                                <div class="col col-md-4">
+                                    <div class="categories-icon align-self-end">
+                                        <img src="assets/img/arrow.png" class="default-img" alt="" />
+                                        <img src="assets/img/arrow-hover.svg" class="hover-img" alt="" />
                                     </div>
-                                    <div class="col col-md-4">
-                                        <div class="categories-icon align-self-end">
-                                            <img src="assets/img/arrow.png" class="default-img" alt="" />
-                                            <img src="assets/img/arrow-hover.svg" class="hover-img" alt="" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="categories-desc mt-2">
-                                            <p>
-                                                Meeting, Wedding Organizer, Event Organizer, Conference, Incentive,
-                                                Exhibition
-                                            </p>
-                                        </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="categories-desc mt-2">
+                                        <p>
+                                            International Tourism Package,
+                                            Domestic Tourism Package, Official
+                                            Visit Package, Umroh Package, Car
+                                            Bus Minibus Renting, Hotel Voucher
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-                    </div>
-                    <div class="slider">
-                        <div class="service-categories">
-                            <div class="position-relative">
-                                <div class="position-absolute top-0 start-0">
-                                    <img src="assets/img/Group 4.svg" alt="" class="default-img" />
-                                    <img src="assets/img/cat-hover.svg" alt="" class="hover-img" />
-                                </div>
-                            </div>
-                            <div class="content-categories">
-                                <div class="row align-items-center">
-                                    <div class="col col-md-8">
-                                        <div class="categories-title">
-                                            <p>
-                                                Smart Outbound
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col col-md-4">
-                                        <div class="categories-icon align-self-end">
-                                            <img src="assets/img/arrow.png" class="default-img" alt="" />
-                                            <img src="assets/img/arrow-hover.svg" class="hover-img" alt="" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="categories-desc mt-2">
-                                            <p>
-                                                Smart Outbond provides outbond packaged with various customized games to
-                                                meet with your need and your aim.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
-                        </div>
                     </div>
-                    <div class="slider">
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-12">
+                    <div class="service-categories">
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 start-0">
+                                <img src="assets/img/Group 4.svg" alt="" class="default-img" />
+                                <img src="assets/img/cat-hover.svg" alt="" class="hover-img" />
+                            </div>
+                        </div>
+                        <div class="content-categories">
+                            <div class="row align-items-center justify-content-beetween">
+                                <div class="col col-md-8">
+                                    <div class="categories-title">
+                                        <p>
+                                            Smart <br> MICE
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col col-md-4">
+                                    <div class="categories-icon align-self-end">
+                                        <img src="assets/img/arrow.png" class="default-img" alt="" />
+                                        <img src="assets/img/arrow-hover.svg" class="hover-img" alt="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="categories-desc mt-2">
+                                        <p>
+                                            Meeting, Wedding Organizer, Event Organizer, Conference, Incentive,
+                                            Exhibition
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-12">
+                    <div class="service-categories">
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 start-0">
+                                <img src="assets/img/Group 4.svg" alt="" class="default-img" />
+                                <img src="assets/img/cat-hover.svg" alt="" class="hover-img" />
+                            </div>
+                        </div>
+                        <div class="content-categories">
+                            <div class="row align-items-center justify-content-beetween">
+                                <div class="col col-md-8">
+                                    <div class="categories-title">
+                                        <p>
+                                            Smart <br> Production
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col col-md-4">
+                                    <div class="categories-icon align-self-end">
+                                        <img src="assets/img/arrow.png" class="default-img" alt="" />
+                                        <img src="assets/img/arrow-hover.svg" class="hover-img" alt="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="categories-desc mt-2">
+                                        <p>
+                                            Smart Production provides various types of services that can help you with your activities. We are ready to help you
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- <div id="categories">
+            <div class="slider-categories">
+                <div class="slider">
+                    <div class="service-categories">
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 start-0">
+                                <img src="assets/img/Group 4.svg" alt="" class="default-img" />
+                                <img src="assets/img/cat-hover.svg" alt="" class="hover-img" />
+                            </div>
+                        </div>
+                        <div class="content-categories">
+                            <div class="row align-items-center justify-content-beetween">
+                                <div class="col col-md-8">
+                                    <div class="categories-title">
+                                        <p>
+                                            Smart Vacation
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col col-md-4">
+                                    <div class="categories-icon align-self-end">
+                                        <img src="assets/img/arrow.png" class="default-img" alt="" />
+                                        <img src="assets/img/arrow-hover.svg" class="hover-img" alt="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="categories-desc mt-2">
+                                        <p>
+                                            International Tourism Package,
+                                            Domestic Tourism Package, Official
+                                            Visit Package, Umroh Package, Car
+                                            Bus Minibus Renting, Hotel Voucher
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="service-categories">
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 start-0">
+                                <img src="assets/img/Group 4.svg" alt="" class="default-img" />
+                                <img src="assets/img/cat-hover.svg" alt="" class="hover-img" />
+                            </div>
+                        </div>
+                        <div class="content-categories">
+                            <div class="row align-items-center justify-content-beetween">
+                                <div class="col col-md-8">
+                                    <div class="categories-title">
+                                        <p>
+                                            Smart MICE
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col col-md-4">
+                                    <div class="categories-icon align-self-end">
+                                        <img src="assets/img/arrow.png" class="default-img" alt="" />
+                                        <img src="assets/img/arrow-hover.svg" class="hover-img" alt="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="categories-desc mt-2">
+                                        <p>
+                                            Meeting, Wedding Organizer, Event Organizer, Conference, Incentive,
+                                            Exhibition
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="service-categories">
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 start-0">
+                                <img src="assets/img/Group 4.svg" alt="" class="default-img" />
+                                <img src="assets/img/cat-hover.svg" alt="" class="hover-img" />
+                            </div>
+                        </div>
+                        <div class="content-categories">
+                            <div class="row align-items-center">
+                                <div class="col col-md-8">
+                                    <div class="categories-title">
+                                        <p>
+                                            Smart Outbound
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col col-md-4">
+                                    <div class="categories-icon align-self-end">
+                                        <img src="assets/img/arrow.png" class="default-img" alt="" />
+                                        <img src="assets/img/arrow-hover.svg" class="hover-img" alt="" />
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="categories-desc mt-2">
+                                        <p>
+                                            Smart Outbond provides outbond packaged with various customized games to
+                                            meet with your need and your aim.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="slider">
                         <div class="service-categories">
                             <div class="position-relative">
                                 <div class="position-absolute top-0 start-0">
@@ -302,10 +414,10 @@
 
                         </div>
                     </div>
-                </div>
             </div>
+        </div> -->
 
-            <!-- <div class="service-slider">
+        <!-- <div class="service-slider">
                 <div class="row">
                     <div class="col-md-3">
                         <div class="service-categories d-flex flex-column">
@@ -455,7 +567,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+            </div>
             </div> -->
         </div>
     </section>
@@ -486,13 +598,15 @@
                     </div>
                 </div>
             </div>
-            <div class="destination-content mt-5">
+
+        </div>
+        <div class="destination-content mt-5">
                 <div class="destination-slider">
                     <div class="slider">
                         <div class="destination-1 img-hover-zoom">
                             <div class="image-container position-relative">
-                                <img src="assets/img/destination-1.png" alt="">
-                                <div class="image-text">Yogyakarta</div>
+                                <img src="assets/img/destination-1intern.png" alt="">
+                                <div class="image-text">Malaysia</div>
                             </div>
                         </div>
                     </div>
@@ -518,9 +632,9 @@
                 </div>
 
             </div>
-        </div>
-        <a class="destination-btn" href="services.html" style="text-decoration: none;">
-            View More Destination</a>
+        <a class="destination-btn" href="service.php" style="text-decoration: none;">
+            View More Destination
+        </a>
         <!-- </div> -->
 
     </section>
@@ -533,18 +647,17 @@
                 Testimonials
             </div>
             <div class="row align-items-center justify-content-beetwen mb-5 mt-3">
-                <div class="col-md-4">
+                <div class="col-lg-5 col-md-4 col-8">
                     <h1 class="service-sub-title">What Travelers Say</h1>
                     <h1 class="service-sub-title">About Our Services </h1>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-lg-5 col-md-4 col-12 order-md-0 order-1">
                     <p class="service-desc">Listen to those who have used our <br> services for their extraordinary
                         vacation.</p>
                 </div>
-                <div class="col-md-2 text-end testi-slide">
+                <div class="col-lg-2 col-md-2 col-4 text-end testi-slide order-md-1 order-0">
                     <img class="testi-slide-prev" src="assets/img/circle-arrow-left.svg"></img>
                     <img class="testi-slide-next" src="assets/img/circle-arrow-right.svg"></img>
-
                 </div>
             </div>
             <div class="testi-slider">
@@ -677,7 +790,6 @@
     <section id="member" class="mt-5 mb-5">
         <div class="container">
             <div class="row justify-content-center align-items-center text-center">
-
                 <div class="col-md-4 col-4">
                     <img src="assets/img/asppi 1.png" alt="" class="img-fluid">
                 </div>
@@ -686,6 +798,9 @@
                 </div>
                 <div class="col-md-4 col-4">
                     <img src="assets/img/solo raya 1.png" class="img-fluid ">
+                </div>
+                <div class="col-md-4 col-4 mt-5">
+                    <img src="assets/img/Tagline.png" class="img-fluid ">
                 </div>
             </div>
         </div>
@@ -723,10 +838,9 @@
                         <div class="col-md-7 col-7">
                             <h3>Services</h3>
                             <div class="footer-menu">
-                                <li><a href="">Smart Vacation</a></li>
+                                <li><a href="">Smart Holiday</a></li>
                                 <li><a href="">Smart MICE</a></li>
-                                <li><a href="">Smart Outbond</a></li>
-                                <li><a href="">Smart Ticketing</a></li>
+                                <li><a href="">Smart Production</a></li>
                             </div>
                         </div>
                     </div>
@@ -749,7 +863,7 @@
     <script type="text/javascript">
         var nav = document.querySelector("nav");
 
-        window.addEventListener("scroll", function () {
+        window.addEventListener("scroll", function() {
             if (window.pageYOffset > 10) {
                 nav.style.backgroundColor = "#3092D9";
                 nav.classList.add("#3092D9");
@@ -760,48 +874,6 @@
         });
     </script>
     <script>
-        var serviseSlider = tns({
-            container: '.slider-categories',
-            items: 1,
-            gutter: 20,
-            loop: false,
-            autoplay: false,
-            autoplayTimeout: 1000,
-            mouseDrag: true,
-            touch: true,
-            controls: false,
-            nav: false,
-            autoplayButtonOutput: false,
-            responsive: {
-                1400: {
-                    items: 3.4,
-                },
-                1200: {
-                    items: 3.1,
-                },
-                992: {
-                    items: 2.8,
-                },
-                768: {
-                    disable: false,
-                    items: 2.1,
-                },
-                590: {
-                    disable: false,
-                    items: 1.4,
-                },
-                576: {
-                    disable: true,
-                    items: 1.5,
-                },
-
-                0: {
-                    disable: true,
-                    items: 1,
-                }
-            }
-        });
-
         var testiSlider = tns({
             container: '.testi-slider',
             items: 1,
@@ -912,14 +984,13 @@
             }
         });
 
-        document.querySelector('.testi-slide-prev').addEventListener('click', function () {
+        document.querySelector('.testi-slide-prev').addEventListener('click', function() {
             testiSlider.goTo('prev');
         });
 
-        document.querySelector('.testi-slide-next').addEventListener('click', function () {
+        document.querySelector('.testi-slide-next').addEventListener('click', function() {
             testiSlider.goTo('next');
         });
-
     </script>
 </body>
 

@@ -29,10 +29,9 @@
                         <div class="col-md-7 col-7">
                             <h3>Services</h3>
                             <div class="footer-menu">
-                                <li><a href="">Smart Vacation</a></li>
+                                <li><a href="">Smart Holiday</a></li>
                                 <li><a href="">Smart MICE</a></li>
-                                <li><a href="">Smart Outbond</a></li>
-                                <li><a href="">Smart Ticketing</a></li>
+                                <li><a href="">Smart Production</a></li>
                             </div>
                         </div>
                     </div>

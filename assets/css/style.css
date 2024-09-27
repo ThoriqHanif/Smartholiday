@@ -85,6 +85,9 @@
 }
 
 /* HOME - EXPERIENCE */
+#experience {
+  margin-top: 130px !important;
+}
 #experience .experience-title{
     width: 200px;
     height: 44px;
@@ -99,13 +102,13 @@
 
 #experience .experience-sub-title {
     color: #333237;
-    font-size: 45px;
+    font-size: 38px;
     font-weight: 600;
     line-height: 48.76px;
 }
 
 #experience .experience-desc{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28px;
     color: var(--grey);
     margin-top: 15px;
@@ -113,18 +116,18 @@
 
 
 #experience .count-stats{
-    font-size: 40px;
+    font-size: 38px;
     color: var(--grey);
     line-height: 48.76px;
 }
 
 #experience .desc-stats{
-    font-size: 18px;
+    font-size: 16px;
     color: var(--grey);
     line-height: 21.94px;
 }
 #experience .line {
-  border: 2px solid var(--line-stroke);
+  border: 1px solid var(--line-stroke);
   height: 70px;
 }
 
@@ -137,12 +140,13 @@
     color: white;
     margin-top: 20px;
     margin-right: 40px;
-    
+    font-size: 16px;
+
 }
 
 #experience .btn-package:hover{
     width: 194px;
-    height: 52px;
+    height: 50px;
     border-radius: 8px;
     background-color: var(--orange);
     border: none;
@@ -152,12 +156,14 @@
 
 #experience .btn-contact{
     width: 139px;
-    height: 52px;
+    height: 50px;
     border-radius: 8px;
     background-color: var(--blue);
     border: none;
     color: white;
     margin-top: 20px;
+    font-size: 16px;
+
 }
 
 #experience .btn-contact:hover{
@@ -172,27 +178,31 @@
 
 /* HOME - SERVICES */
 
+#service {
+  margin-top: 130px !important;
+}
+
 #service .service-title{
   width: 170px;
   height: 44px;
   border-radius: 100px;
   padding: 10px 20px 10px 20px;
   background-color: #FF6C0033;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 24.38px;
   color: var(--orange);
 }
 
 #service .service-sub-title{
-    font-size: 35px;
+    font-size: 38px;
     line-height: 48.76px;
     font-weight: 600;
     color: #333237;
 }
 
 #service.service-desc{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28px;
     margin-left: 50px;
     color: #7B7B7B;
@@ -200,7 +210,7 @@
 
 #service .service-btn{
     width: 145px;
-    height: 52px;
+    height: 50px;
     border-radius: 8px;
     border: 1px solid #7B7B7B;
     background-color: transparent;
@@ -209,7 +219,7 @@
     padding-right: 15px;
     padding-top: 12px;
     padding-bottom: 12px;
-    font-size: 18px;
+    font-size: 16px;
     color: #7B7B7B;
     text-decoration: none;
 }
@@ -230,11 +240,16 @@
     color: white;
 }
 
+#service .container-service{
+  justify-content: center !important;
+}
+
 #service .service-categories{
     width: 338px;
     height: 338px;
     background-color: #3092D9;
     border-radius: 20px;
+    margin: auto;
 }
 
 #service .content-categories{
@@ -275,11 +290,11 @@
 }
 
 #service .categories-title{
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 42px;
     color: white;
-}   
+}
 
 #service .categories-icon{
     width: 41px;
@@ -288,7 +303,7 @@
 
 
 #service .categories-desc{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 23px;
     color: #DDE5E9;
 }
@@ -315,12 +330,19 @@
 #destination{
     background: linear-gradient(#3092D9 65%, white 20%);
     width: 100%;
+    margin-top: 130px !important;
+}
+
+#destination .destination-content{
+  /* padding-left: 50px;
+  padding-right: 50px; */
 }
 
 #destination .destination-slider{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+
 }
 
 #destination .slider{
@@ -357,7 +379,7 @@
 }
 
 #destination .destination-sub-title{
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 600;
     text-align: center;
     color: white;
@@ -428,7 +450,7 @@
     justify-content: center;
     text-align: center;
   }
-  
+
 #destination .image-text {
     position: absolute;
     top: 80%;
@@ -440,6 +462,10 @@
 
 /* HOME - TESTIMONIAL */
 
+#testimonial{
+    margin-top: 130px !important;
+}
+
 .testi-title{
     width: 170px;
     height: 44px;
@@ -447,7 +473,7 @@
     border-radius: 100px;
     color: #FF6C00;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     padding: 10px 20px 10px 20px;
     text-align: center;
     line-height: 24.38px;
@@ -455,7 +481,7 @@
 
 .testi-sub-title{
     width: 408px;
-    font-size: 40px;
+    font-size: 38px;
     line-height: 48.76px;
     font-weight: 600;
     color: #333237;
@@ -486,7 +512,7 @@
 
 .testi-rating{
     display: flex;
-    align-items: center; 
+    align-items: center;
 
 }
 
@@ -536,17 +562,19 @@
 }
 
 /* HOME - MEMBER */
-
+#member {
+    margin-top: 130px !important;
+}
 .partner-container{
     text-align: center;
 
 }
-  
+
 .partner-container img{
     display: inline-block;
     margin: 0px auto;
 }
-  
+
 .partner-container img{
     margin-right: 102px;
 }
@@ -559,9 +587,10 @@
 
 #footer {
    background-color: #3092D9;
-   background-image: url('../img/vector.png');
+   background-image: url('assets/img/vector.png');
    background-repeat: no-repeat;
    background-position: right;
+   margin-top: 130px !important;
 }
 
 #footer h3{
@@ -576,7 +605,7 @@
 .footer-logo{
     margin-top: 75px;
 }
-  
+
 .footer-about{
     /* width: 517px; */
     font-size: 20px;
@@ -659,7 +688,7 @@
     margin-bottom: 100px;
     margin-top: 80px;
   }
-  
+
   .left-image,
   .right-image {
     position: absolute;
@@ -669,15 +698,15 @@
     height: auto;
     margin-top: 10px;
   }
-  
+
   .left-image {
     left: 0;
   }
-  
+
   .right-image {
     right: 0;
   }
-  
+
   .header-title {
     margin-top: 0;
     margin-bottom: 0;
@@ -686,7 +715,7 @@
     font-weight: 600;
     padding-bottom: 20px;
   }
-  
+
   #services-page .service-title{
     width: 177px;
     height: 44px;
@@ -733,7 +762,7 @@
   }
 
   #categories .nav {
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap;
     overflow-x: auto;
   }
 
@@ -753,14 +782,14 @@
   #categories .nav-link.active::after {
       content: "";
       display: block;
-      width: 100%; 
-      height: 10px; 
+      width: 100%;
+      height: 10px;
       margin-top: 5px;
-      background-image: url('../img/tab-active.png'); 
-      background-repeat: no-repeat; 
+      background-image: url('../img/tab-active.png');
+      background-repeat: no-repeat;
   }
 
-  #categories .content-smart-vacation .vacation-card{
+  #categories .content-smart-holiday .holiday-card{
     background-color: var(--blue);
     background-image: url('../img/map-desc.png');
     border-radius: 20px;
@@ -768,7 +797,7 @@
     background-size: cover;
   }
 
-  #categories .content-smart-vacation .vacation-title h3{
+  #categories .content-smart-holiday .holiday-title h3{
     text-align: center;
     font-size: 40px;
     color: var(--white);
@@ -776,19 +805,30 @@
     font-weight: 600;
   }
 
-  #categories .content-smart-vacation .vacation-desc{
+  #categories .content-smart-holiday .holiday-desc{
     font-size: 24px;
     color: var(--white);
     line-height: 32px;
     margin-top: 35px;
   }
 
-  #categories .content-smart-vacation .vacation-menu{
+  #categories .content-smart-holiday .holiday-menu{
     font-size: 24px;
     color: var(--white);
     line-height: 32px;
     margin-top: 40px;
   }
+
+  .domestic-slider .slider img{
+    width: 350px;
+    height: 400px;
+  }
+
+  .international-slider .slider img{
+    width: 350px;
+    height: 400px;
+  }
+
 
   /* PROMOTION */
   #promotion .promotion-card{
@@ -895,7 +935,7 @@
 .description-title {
   font-size: 32px;
   margin-bottom: 20px;
- 
+
 }
 
 .description-desc {
@@ -998,13 +1038,13 @@
 
 /* ARMADA PAGES */
 .armada-card{
-  width: fit-content;
+  /* width: fit-content; */
   background-color: var(--background);
-  height: 510px;
+  height: 483px;
   border-radius: 20px;
 }
 
-.armada-img{
+.armada-img img{
   width: 100%;
 }
 
@@ -1037,6 +1077,8 @@
   font-size: 18px;
   line-height: 21.94px;
   color: var(--grey);
+  margin-bottom: 30px;
+
 }
 
 .armada-desc .info-harga{
@@ -1061,7 +1103,7 @@
 .armada-btn a{
   color: var(--white);
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 21.94px;
 }
@@ -1160,11 +1202,11 @@
 #armada .nav-link.active::after {
   content: "";
   display: block;
-  width: 100%; 
-  height: 10px; 
+  width: 100%;
+  height: 10px;
   margin-top: 5px;
-  background-image: url('../img/tab-active.png'); 
-  background-repeat: no-repeat; 
+  background-image: url('../img/tab-active.png');
+  background-repeat: no-repeat;
 }
 
 /* ABOUT */
@@ -1352,7 +1394,7 @@ textarea::placeholder{
       line-height: 25.6px;
       color: #333237;
     }
-    
+
     #contact-call p{
       width: 147px;
       font-size: 10px;
@@ -1405,7 +1447,7 @@ textarea::placeholder{
     padding-top: 20px !important;
     margin-bottom: 100px;
   }
-  
+
   .left-image,
   .right-image {
     position: absolute;
@@ -1415,18 +1457,18 @@ textarea::placeholder{
     height: auto;
     margin-top: 40px ;
   }
-  
+
   .left-image {
     left: 0;
     bottom: 0 !important;
   }
-  
+
   .right-image {
     right: 0;
     bottom: 0 !important;
 
   }
-  
+
   .header-title {
     margin-top: 0;
     margin-bottom: 0;
@@ -1438,10 +1480,10 @@ textarea::placeholder{
 }
 
 /* // X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
 
   #hero .container{
-    margin-top: 0 !important;
+    margin-top: 40px !important;
   }
 
   .services-header {
@@ -1463,7 +1505,7 @@ textarea::placeholder{
   .left-image {
     left: 0;
   }
-  
+
   .right-image {
     right: 0;
   }
@@ -1494,7 +1536,7 @@ textarea::placeholder{
   .services-header {
     padding-top: 40px;
   }
-  
+
   .top{
     width: 100%;
   }
@@ -1516,7 +1558,7 @@ textarea::placeholder{
     width: 183.54px;
     height: 89.37px;
   }
-  
+
 
   .mb-5{
     margin-bottom: 0;
@@ -1569,6 +1611,9 @@ textarea::placeholder{
     }
 
   /* EXPERIENCE SECTION */
+    #experience{
+      margin-top: 0px !important;
+    }
     #experience .img-experience img{
       order: 1;
       width: 300.36px !important;
@@ -1622,6 +1667,10 @@ textarea::placeholder{
 
     /* SERVICES */
 
+    #service{
+      margin-top: 100px !important;
+    }
+
     .header{
       height: 120px;
       margin-top: 500px;
@@ -1639,7 +1688,7 @@ textarea::placeholder{
       line-height: 14.63px;
     }
 
-    
+
     #service .service-sub-title{
       font-size: 16px;
       line-height: 24px;
@@ -1649,7 +1698,7 @@ textarea::placeholder{
       font-size: 12px;
       line-height: 19.2px;
       margin-left: 0px;
-      
+
     }
 
     #service .service-btn{
@@ -1662,10 +1711,9 @@ textarea::placeholder{
 
     #service .service-categories{
       width: 260px;
-      height: 260px;
+      height: 300px;
       margin: auto ;
       margin-bottom: 45px;
-
     }
 
     #service .content-categories {
@@ -1679,7 +1727,7 @@ textarea::placeholder{
 
     #service .service-categories:hover{
       width: 260px;
-      height: 260px;
+      height: 300px;
       /* margin: 0 auto; */
       margin-bottom: 45px;
 
@@ -1689,7 +1737,7 @@ textarea::placeholder{
     }
 
     #service .categories-title{
-      font-size: 22px;
+      font-size: 20px;
       line-height: 32.31px;
       /* align-items: center; */
       margin-bottom: 0;
@@ -1704,7 +1752,7 @@ textarea::placeholder{
       margin-left: 20px;
       margin-top: 20px;
       margin-bottom: 20px;
-    } 
+    }
 
     .categories-icon img{
       height: 26px;
@@ -1712,11 +1760,11 @@ textarea::placeholder{
     .service-categories .hover-img {
       display: none;
     }
-    
+
     .service-categories:hover .default-img {
       display: none;
     }
-    
+
     .service-categories:hover .hover-img {
       /* display: inline-block; */
       -webkit-transition: all 1s ease;
@@ -1726,7 +1774,7 @@ textarea::placeholder{
 
 
     #service .categories-desc{
-      font-size: 12px;
+      font-size: 10px;
       line-height: 19.69px;
       margin-top: 11px;
     }
@@ -1771,10 +1819,10 @@ textarea::placeholder{
     }
     #destination .destination-1{
         margin: 0;
-    } 
+    }
     #destination .destination-3{
       margin: 0;
-    } 
+    }
 
     #destination .destination-slider{
       flex-wrap: none;
@@ -1784,7 +1832,7 @@ textarea::placeholder{
     #destination .destination-slider{
       display: block;
     }
-    
+
     #destination .slider{
       margin-right: 0px;
     }
@@ -1805,23 +1853,47 @@ textarea::placeholder{
       overflow: hidden;
       border-radius: 15px;
     }
-    
+
     #destination .img-hover-zoom img {
       transition: transform .1s ease;
       border-radius: 15px;
       width: 189px;
     }
-    
+
     #destination .img-hover-zoom:hover img {
       transform: scale(1.2);
       border-radius: 15px;
       width: 189px;
     }
-  
-    /* TESTIMONIAL */
 
-    .testi-slide{
+    /* TESTIMONIAL */
+    #testimonial  .service-sub-title{
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    #testimonial  .service-desc{
+      font-size: 12px;
+      line-height: 19.2px;
+    }
+    .testi-title{
+      font-size: 12px;
+      width: 118px;
+      height: 34px;
+      padding: 5px;
+    }
+
+    /* .testi-slide{
       display: none;
+    } */
+    .testi-slide-prev{
+      width: 40px;
+      height: 40px;
+    }
+
+    .testi-slide-next{
+      width: 40px;
+      height: 40px;
     }
 
     .testi-card{
@@ -1831,7 +1903,7 @@ textarea::placeholder{
       /* width: 1280px; */
 
     }
-  
+
     #testi .img-testi-star{
       width: 249.93px;
       height: 249.93px;
@@ -1840,19 +1912,19 @@ textarea::placeholder{
       margin: 0;
       padding: 20px;
     }
-  
+
     .testi-rating{
       display: flex;
-      align-items: center; 
-  
+      align-items: center;
+
     }
-  
+
     .testi-rating img{
       width: 18px;
       height: 18px;
       margin-right: 2px;
     }
-  
+
     .testi-rating p{
       font-size: 14px;
       /* line-height: 29.26px; */
@@ -1860,7 +1932,7 @@ textarea::placeholder{
       font-weight: 600;
       margin-bottom: 0;
     }
-  
+
     .testi-comment{
       font-size: 12px;
       line-height: 19.2px;
@@ -1868,13 +1940,13 @@ textarea::placeholder{
       /* width: 566px; */
       margin-top: 11px;
     }
-  
+
     .testi-line{
       width: 181px;
       border: 2px solid #DDE5E9;
       margin-top: 19px;
     }
-  
+
     .testi-nama{
       margin-top: 10px;
       font-size: 12px;
@@ -1888,7 +1960,7 @@ textarea::placeholder{
     /* .testi-img img{
       width: 112.88px;
       height: 129px;
-      border-radius: 15px;  
+      border-radius: 15px;
       position: absolute;
       top: 10%;
       margin-left: 220px;
@@ -1903,9 +1975,9 @@ textarea::placeholder{
     .testi-img-mobile-container {
       padding: 20px;
     }
-    
+
     .testi-img-mobile {
-      border-radius: 15px;  
+      border-radius: 15px;
       width: 8rem;
       height: 10rem;
       /* height: 129px;
@@ -2005,11 +2077,11 @@ textarea::placeholder{
     }
 
     #categories .nav {
-      flex-wrap: nowrap; 
+      flex-wrap: nowrap;
       overflow-x: auto;
     }
     #categories .nav-item {
-        flex: 0 0 auto; 
+        flex: 0 0 auto;
     }
 
   #categories .slider-tab {
@@ -2038,34 +2110,34 @@ textarea::placeholder{
   #categories .nav-link.active::after {
       content: "";
       display: block;
-      width: 118px; 
-      height: 5px; 
+      width: 118px;
+      height: 5px;
       margin-top: 5px;
-      background-image: url('../img/tab-active-mobile.svg'); 
-      background-repeat: no-repeat; 
+      background-image: url('../img/tab-active-mobile.svg');
+      background-repeat: no-repeat;
   }
 
-  #categories .content-smart-vacation .vacation-card{
+  #categories .content-smart-holiday .holiday-card{
     background-color: var(--blue);
     background-image: url('../img/map-desc.png');
     border-radius: 20px;
     padding: 40px 18px;
     background-size: cover;
   }
-  #categories .tab-content .vacation-title h3{
+  #categories .tab-content .holiday-title h3{
     font-size: 16px;
     line-height: 24px;
     margin-top: 0;
 
   }
 
-  #categories .tab-content .vacation-desc{
+  #categories .tab-content .holiday-desc{
     font-size: 12px;
     line-height: 19.2px;
     margin-top: 20px;
   }
 
-  #categories .tab-content .vacation-menu{
+  #categories .tab-content .holiday-menu{
     font-size: 12px;
     line-height: 19.2px;
     margin-top: 0;
@@ -2089,7 +2161,7 @@ textarea::placeholder{
     height: 40px;
     width: 40px;
     order: 2;
-    
+
   }
 
   #categories .domestic-tour .domestic-slider{
@@ -2097,12 +2169,13 @@ textarea::placeholder{
     text-align: center;
     justify-content: center;
   }
+
   #categories .domestic-tour .domestic-slider img{
     width: 257px;
     height: 293px;
     margin-top: 0;
-    
-  } 
+
+  }
 
   #categories  .slide-domestic-mobile{
     /* margin: auto; */
@@ -2127,7 +2200,7 @@ textarea::placeholder{
     height: 40px;
     width: 40px;
     order: 2;
-    
+
   }
 
   #categories .international-tour .international-slider{
@@ -2139,15 +2212,15 @@ textarea::placeholder{
     width: 257px;
     height: 293px;
     margin-top: 0;
-    
-  } 
+
+  }
 
   #categories  .slide-international-mobile{
     /* margin: auto; */
     text-align: center;
     margin-left: 40%;
   }
-  
+
 
   #promotion .promotion-card{
     padding-left: 20px;
@@ -2187,7 +2260,7 @@ textarea::placeholder{
     height: 40px;
     width: 40px;
     order: 2;
-    
+
   }
 
   #categories .domestic-tour .outbound-slider{
@@ -2199,8 +2272,8 @@ textarea::placeholder{
     width: 257px;
     height: 293px;
     margin-top: 0;
-    
-  } 
+
+  }
 
   #categories  .slide-outbound-mobile{
     /* margin: auto; */
@@ -2229,15 +2302,15 @@ textarea::placeholder{
   #armada .nav-link.active::after {
       content: "";
       display: block;
-      width: 118px; 
-      height: 5px; 
+      width: 118px;
+      height: 5px;
       margin-top: 5px;
-      background-image: url('../img/tab-active-mobile.svg'); 
-      background-repeat: no-repeat; 
+      background-image: url('../img/tab-active-mobile.svg');
+      background-repeat: no-repeat;
   }
 
   #armada .nav {
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap;
     overflow-x: auto;
   }
 
@@ -2246,7 +2319,7 @@ textarea::placeholder{
     height: 385px;
     margin: auto;
   }
-  
+
   .armada-desc{
     padding: 20px;
   }
@@ -2274,33 +2347,33 @@ textarea::placeholder{
   }
 
   .info-qty {
-    flex-direction: row; 
+    flex-direction: row;
     align-items: start;
   }
   .info-qty .flex-grow-1 {
-    margin-top: 0; 
+    margin-top: 0;
   }
 
   .info-harga {
-    flex-direction: row; 
+    flex-direction: row;
     align-items: start;
   }
   .info-harga .flex-grow-1 {
-    margin-top: 0; 
+    margin-top: 0;
   }
 
   .armada-desc .info-harga img{
     width: 22px;
     height: 17.29px;
   }
-  
+
   .armada-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   .armada-btn-mobile {
-    width: auto; 
+    width: auto;
     height: 35px;
     padding: 5px 15px;
     background-color: var(--blue);
@@ -2346,36 +2419,36 @@ textarea::placeholder{
     height: 29px !important;
   }
   #gallery .gallery-slider .slider .gal-1 img{
-      width: 170px !important;
+      /* width: 170px !important; */
       height: 108.9px !important;
     }
 
   #gallery .gallery-slider .slider .gal-2 img{
-    width: 138.46px !important;
+    /* width: 138.46px !important; */
       height: 150px !important;
     }
   #gallery .gallery-slider .slider .gal-3 img{
-    width: 132px !important;
+    /* width: 132px !important; */
     height: 141px !important;
   }
 
   #gallery .gallery-slider .slider .gal-4 img{
-    width: 160px !important;
+    /* width: 160px !important; */
     height: 170px !important;
   }
 
   #gallery .gallery-slider .slider .gal-5 img{
-    width: 116px !important;
+    /* width: 116px !important; */
     height: 123px !important;
 
   }
 
   #gallery .gallery-slider .slider .gal-6 img{
-    width: 177px !important;
-    height: 117px!important ; 
+    /* width: 177px !important; */
+    height: 117px!important ;
   }
 
-  .gal-4 { order: 5 !important; } 
+  .gal-4 { order: 5 !important; }
   .gal-5 { order: 6 !important; }
   .gal-6 { order: 4 !important; }
 
@@ -2461,7 +2534,7 @@ textarea::placeholder{
  }
 
 /* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
+@media (max-width: 767.98px) {
 
   /* HERO */
   /* #hero .container{
@@ -2527,12 +2600,14 @@ textarea::placeholder{
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  
+
+
+
   /* HERO */
     #hero .container{
       margin-top: 100px;
     }
-    
+
     .hero-title{
       font-weight: 700;
       color: var(--white);
@@ -2568,10 +2643,10 @@ textarea::placeholder{
     }
     #destination .destination-1{
       margin: 0;
-    } 
+    }
     #destination .destination-3{
       margin: 0;
-    } 
+    }
 
     #destination .destination-slider{
       flex-wrap: none;
@@ -2586,7 +2661,7 @@ textarea::placeholder{
     #destination .destination-slider{
       display: block;
     }
-    
+
     #destination .slider{
       margin-right: 0px;
     }
@@ -2607,13 +2682,13 @@ textarea::placeholder{
       overflow: hidden;
       border-radius: 15px;
     }
-    
+
     #destination .img-hover-zoom img {
       transition: transform .1s ease;
       border-radius: 15px;
       /* width: 189px; */
     }
-    
+
     #destination .img-hover-zoom:hover img {
       transform: scale(1.2);
       border-radius: 15px;
@@ -2646,67 +2721,67 @@ textarea::placeholder{
       height: 385px;
       margin: auto;
     }
-    
+
     .armada-desc{
       padding: 20px;
     }
-  
+
     .armada-card .armada-img img{
       width: 339px;
       /* height: 185px; */
     }
-  
+
     .armada-desc h5{
       font-size: 16px;
       line-height: 24px;
     }
-  
+
     .armada-desc .info-qty,
     .armada-desc .info-harga{
       font-size: 14px;
       line-height: 17.07px;
       margin-top: 20px;
     }
-  
+
     .armada-desc .info-qty img{
       width: 22px;
       height: 17.29px;
     }
-  
+
     .info-qty {
-      flex-direction: row; 
+      flex-direction: row;
       align-items: start;
     }
     .info-qty .flex-grow-1 {
-      margin-top: 0; 
+      margin-top: 0;
     }
-  
+
     .info-harga {
-      flex-direction: row; 
+      flex-direction: row;
       align-items: start;
     }
     .info-harga .flex-grow-1 {
-      margin-top: 0; 
+      margin-top: 0;
     }
-  
+
     .armada-desc .info-harga img{
       width: 22px;
       height: 17.29px;
     }
-    
+
     .armada-head {
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
     .armada-btn-mobile {
-      width: auto; 
+      width: auto;
       height: 35px;
       padding: 5px 15px;
       background-color: var(--blue);
       border-radius: 8px;
     }
-  
+
     .armada-btn-mobile:hover {
       background-color: var(--orange);
     }
@@ -2717,7 +2792,7 @@ textarea::placeholder{
       line-height: 14.63px;
       text-decoration: none;
     }
-  
+
     .armada-btn-mobile a:hover {
       color: var(--white);
     }
@@ -2732,7 +2807,7 @@ textarea::placeholder{
         width: 337px;
         height: 200px;
       }
-  
+
     #gallery .gallery-slider .slider .gal-2 img{
       width: 240px;
         height: 260px;
@@ -2741,31 +2816,57 @@ textarea::placeholder{
       width: 276px;
       height: 307px;
     }
-  
+
     #gallery .gallery-slider .slider .gal-4 img{
       width: 331px;
       height: 251px;
       margin-left: 100px;
     }
-  
+
     #gallery .gallery-slider .slider .gal-5 img{
       width: 116px;
       height: 123px;
-  
+
     }
-  
+
     #gallery .gallery-slider .slider .gal-6 img{
       width: 200px;
       height: 122px;
     }
-    
+
 }
 
  /* EXPERIENCE */
 
 
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { 
+@media (max-width: 1199.98px) {
+
+    #service .service-categories{
+      width: 300px;
+    }
+
+    #service .service-categories:hover{
+      width: 300px;
+    }
+
+    #service .categories-title{
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 42px;
+      color: white;
+  }
+
+  #service .categories-icon{
+      width: 38px;
+      height: 30px;
+  }
+
+  #service .categories-desc{
+    font-size: 14px;
+    line-height: 20px;
+    color: #DDE5E9;
+}
 
     #experience img {
       width: 400px !important;
@@ -2784,7 +2885,7 @@ textarea::placeholder{
         width: 337px;
         height: 244px;
       }
-  
+
     #gallery .gallery-slider .slider .gal-2 img{
       width: 200px;
         height: 240px;
@@ -2793,29 +2894,29 @@ textarea::placeholder{
       width: 239px;
       height: 207px;
     }
-  
+
     #gallery .gallery-slider .slider .gal-4 img{
       width: 221px;
       height: 251px;
     }
-  
+
     #gallery .gallery-slider .slider .gal-5 img{
       width: 190px;
       height: 235px;
       padding-left: 0 !important;
-  
+
     }
-  
+
     #gallery .gallery-slider .slider .gal-6 img{
       width: 373px;
       height: 278px;
     }
 
-    
+
  }
 
 /* // X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) { 
+@media (max-width: 1399.98px) {
     #experience img {
       width: 600px;
     }
@@ -2830,5 +2931,3 @@ textarea::placeholder{
       line-height: 27px;
     }
  }
-
-
