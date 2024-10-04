@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-5">
-                    <img class="footer-logo" src="assets/img/logo/logo.svg" height="75px" alt="">
+                    <img class="footer-logo" src="assets/img/icon.png" height="75px" alt="">
                     <p class="footer-about">Solo Mandiri Travelindo merupakan perusahaan yang bergerak pada bidang
                         travel. Kami menyediakan berbagai paket pilihan diantaranya smart vacation, smart mice, smart
                         outbound, dan smart ticketing.</p>

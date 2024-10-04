@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Smart Production</title>
-    <link rel="shortcut icon" href="assets/img/logo/logo.svg" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
@@ -38,7 +38,7 @@
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
         <div class="container">
-            <img src="assets/img/logo/logo.svg" alt="" height="50" class="navbar-logo" />
+            <img src="assets/img/icon.png" alt="" height="50" class="navbar-logo" />
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <img src="assets/img/hamburger.png" alt="Toggle" width="30">
@@ -811,7 +811,7 @@
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-5">
-                    <img class="footer-logo" src="assets/img/logo/logo.svg" height="75px" alt="">
+                    <img class="footer-logo" src="assets/img/icon.png" height="75px" alt="">
                     <p class="footer-about">Solo Mandiri Travelindo merupakan perusahaan yang bergerak pada bidang
                         travel. Kami menyediakan berbagai paket pilihan diantaranya smart vacation, smart mice, smart
                         outbound, dan smart ticketing.</p>

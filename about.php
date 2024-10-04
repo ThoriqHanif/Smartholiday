@@ -2,7 +2,7 @@
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 nav-service">
     <div class="container">
-        <img src="assets/img/logo/logo.svg" alt="" height="50" class="navbar-logo" />
+        <img src="assets/img/icon.png" alt="" height="50" class="navbar-logo" />
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <img src="assets/img/hamburger.png" alt="Toggle" width="30">
@@ -98,7 +98,7 @@
                     <div class="col-6 mt-5">
                         <div class="stats-title">142+</div>
                         <div class="stats-desc">Happy Tourist</div>
-                    </div> 
+                    </div>
                     <div class="col-6 mt-5 mb-5">
                         <div class="stats-title">25+</div>
                         <div class="stats-desc">Package</div>
@@ -108,7 +108,7 @@
                         <div class="stats-desc">Teams</div>
                     </div>
                 </div>
-                
+
             </div>
             <div class="position-relative">
                     <div class="position-absolute bottom-0 end-0">
